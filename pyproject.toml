@@ -1,0 +1,9 @@
+[project]
+name = "mcp-database-server"
+version = "1.0.0"
+description = "A minimal read-only MCP server for a SQLite database in Python: list_tables, describe_table, run_query."
+license = "MIT"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=2.3.0",
+]

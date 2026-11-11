@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "shop-db": {
+      "command": "uv",
+      "args": ["--directory", "/ABSOLUTE/PATH/TO/mcp-database-server", "run", "db_server.py"]
+    }
+  }
+}
