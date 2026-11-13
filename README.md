@@ -2,7 +2,7 @@
 
 A minimal [Model Context Protocol](https://modelcontextprotocol.io) server that lets Claude (or any MCP host) query a SQLite
 database through three tools, `list_tables`, `describe_table` and `run_query`, over a connection that **cannot write**.
-It's the code from the video **Build an MCP Server for Your Database in Python (Read-Only)**: [VIDEO LINK]
+It's the code from the video **Build an MCP Server for Your Database in Python (Read-Only)**: https://youtu.be/ox2xk1gXLeM
 
 ```
 Claude Desktop  --(MCP over stdio)-->  db_server.py  --(sqlite3, mode=ro)-->  shop.db
